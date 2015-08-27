@@ -1,0 +1,68 @@
+#h1-1 {
+         font-size: 14px;
+         float: left;
+         margin-top: -40;
+         margin-left: 30px;
+         color: darkslategrey;
+         font-family: 'Open Sans', sans-serif;
+}
+
+#h2-2 {
+         font-size: 16px;
+         float: right;
+         margin-top: -40px;
+         margin-right: 30px;
+         color: darkslategrey;
+}
+
+img {
+         display: block;
+         margin: auto;
+         height: 40px;
+}
+
+#h1-3 {
+         text-align: center;
+         color: black;
+         font-size: 50px;
+         font-family: Agency FB;
+         font-weight: lighter;
+}
+
+hr {
+         margin-top: 60px
+}
+
+#jumbo1 {
+         margin-top: 50px;
+         height: 340px;
+         border-bottom: 1px solid #a78f68;
+         background-image: url("http://www.combatvieira.com.br/imagens/bg.jpg");
+}
+
+#welltab {
+         width: 850px;
+         display: block;
+         margin: auto;
+         margin-top: 240px;
+         background: white;
+         /*    border: 1px solid black;*/
+         border: none;
+         border-radius: 20px;
+         height: 275px;
+}
+
+#link {
+         text-decoration: none;
+         color: darkslategrey;
+}
+
+#link:hover {
+         color: #a78f68;
+         transition-delay: .3s;
+}
+
+#link2 {
+         color: burlywood;
+}
+
