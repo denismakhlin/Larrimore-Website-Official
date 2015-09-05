@@ -1,0 +1,112 @@
+/*turning card */
+.flip-container {
+    /*adds size*/
+
+margin-top: 35px;
+ }
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+    /*i put the size to a certain amount to fit in the column*/
+	width: 300px;
+	height: 300px;
+        border: black;
+                    background: white;
+            border-color: black;
+            border-radius: 20px ;
+         border: 1px solid lightgrey;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}.vertical.flip-container {
+	position: relative;
+}
+
+	.vertical .back {
+		transform: rotateX(180deg);
+	}
+
+	.vertical.flip-container .flipper {
+		transform-origin: 100% 213.5px; /* half of height */
+	}
+
+	.vertical.flip-container:hover .flipper {
+		transform: rotateX(-180deg);
+	}
+        /*set id to the front to make it easier to edit*/
+        /*made it red with box shadpw and vlack border*/
+        #front {
+            background: white;
+            border-radius: 20px;
+            
+        }
+        /*changed the paragraph inside the container to black Ariel*/
+        #pfront {
+            margin-top: 20;
+            color: black;
+            font-family: Arial;
+        }
+        /*text color of paragraph is black*/
+        p {
+            color: black;
+        }
+        /*color of first line id in HTML is black*/
+        #firstline {
+            color: black;
+            margin-top: 20;
+            text-align: center;
+            font-family: 'Exo', sans-serif;
+            font-size: 30px;
+        }
+        .b1, .b2, .b3, .b4{
+            /*each id to my little webpages*/
+            /*adds arelative display margin of 45 on all sides*/
+            /*it floats left the width of it is 25%*/
+            /*and the color is transparent*/
+            	width: 300px;
+                 margin-right: 45px;
+                 margin-left: 45px; 
+  display: inline-block;
+  
+        }
+.wrap {
+    position: relative;
+	z-index: 8888;
+	height: 100%;
+	width: 100%;
+  text-align: center;
+}
+
+#imgturn {
+height: 250;
+width: 250;
+}
