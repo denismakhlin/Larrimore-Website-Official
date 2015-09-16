@@ -17,11 +17,12 @@ background-color: white;
 }
 .cb-slideshow li span { 
     margin-top: -47px;
-    width: 105%;
+    width: 250%;
+    width: 5000px;
     height: 340px;
     position: absolute;
     top: 0px;
-    left: -100px;
+    left: -500px;
     color: transparent;
     background-size: ;
     background-position: 50% 50%;
